@@ -14,6 +14,7 @@ namespace Vampire
         [SerializeField] protected string description;
         [SerializeField] protected Rarity rarity = Rarity.Common;
 
+        // @M:Game Context
         protected AbilityManager abilityManager;
         protected EntityManager entityManager;
         protected Character playerCharacter;
